@@ -1,0 +1,47 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #22c55e;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu a {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 16px 20px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: #22c55e;
+  color: #fff;
+}
+
+.menu .active {
+  background: #22c55e;
+  color: #fff;
+}
